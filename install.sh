@@ -1,3 +1,5 @@
+#!/bin/bash
+
 executable="wttr"
 if [ "$#" -ne 0 ]
 then

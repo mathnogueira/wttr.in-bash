@@ -1,5 +1,13 @@
+#!/bin/bash
+
 baseUrl="wttr.in"
-city=$1
-cityUrl=${cidade// /-}
+if [ "$#" -ne 0 ]
+then
+	city=$1
+else
+	source ~/.wttrin.default
+
+fi
+cityUrl=${city// /-}
 
 curl $baseUrl/$cityUrl
