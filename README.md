@@ -11,7 +11,13 @@ sudo ./install.sh <executable_name>
 ```
 
 ## Usage
-You must provide an argument to inform the city that you want to check the weather. Note that you must use quotes (single or double) when the city name has a blank space.
+You can define a default location, for that, execute the following:
+```bash
+touch ~/.wttrin.default
+echo city="My city name" > ~/.wttrin.default
+```
+
+You can also provide an argument to inform the city that you want to check the weather. Note that you must use quotes (single or double) when the city name has a blank space.
 ```bash
 wttr "Belo Horizonte"
 wttr "Lavras"
