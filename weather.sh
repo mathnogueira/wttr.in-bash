@@ -16,4 +16,4 @@ else
 fi
 cityUrl=${city// /-}
 
-curl $baseUrl/$cityUrl
+curl --silent $baseUrl/$cityUrl
