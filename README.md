@@ -11,14 +11,15 @@ sudo ./install.sh <executable_name>
 ```
 
 ## Usage
-You can define a default location, fcreate the file *.wttrin.default* and add the following:
+You can define a default location, create the file *.wttrin.default* and add the following:
 ```bash
 city="My city name"
 ```
 
-You can also provide an argument to inform the city that you want to check the weather. Note that you must use quotes (single or double) when the city name has a blank space.
+You can also provide an argument to inform the city that you want to check the weather.
 ```bash
 wttr "Belo Horizonte"
 wttr "Lavras"
+wttr Belo Horizonte
 wttr Lavras
 ```
