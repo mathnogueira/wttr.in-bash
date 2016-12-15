@@ -23,3 +23,8 @@ wttr "Lavras"
 wttr Belo Horizonte
 wttr Lavras
 ```
+
+You can also check the moon status of the current day. For that, just use:
+```bash
+wttr --moon
+```
